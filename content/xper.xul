@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://DAYTube/skin/overlay.css" type="text/css"?>
+<window xmlns="http://www.mozilla.org/keymaster/gat...re.is.only.xul"
+	hidechrome="true"
+	windowtype="main"
+	orient="vertical"
+	sizemode="normal"
+	width="400" height="300"
+	persist="screenX screenY width height">
+	<hbox flex="1">
+		<vbox width="2" style="background-color: grey;">
+			<resizer dir="topleft" height="2" style="cursor: nw-resize;"/>
+			<resizer dir="left" flex="1" style="cursor: w-resize;"/>
+			<resizer dir="bottomleft" height="2" style="cursor: sw-resize;"/>
+		</vbox>
+		<vbox flex="1">
+			<resizer dir="top" height="2" style="background-color: grey; cursor: n-resize;"/>
+			<browser flex="1" id="browser" type="content-primary"/>
+			<resizer dir="bottom" height="2" style="background-color: grey; cursor: s-resize;"/>
+		</vbox>
+		<vbox width="2" style="background-color: grey; overflow: hidden;">
+			<resizer dir="topright" height="2" style="cursor: ne-resize;"/>
+			<resizer dir="right" flex="1" style="cursor: e-resize;"/>
+			<resizer dir="bottomright" height="2" style="cursor: se-resize;"/>
+		</vbox>
+	</hbox>
+</window>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://DAYTube/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://DAYTube/locale/overlay.dtd">
+
+<overlay id="DAYTube-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<script src="chrome://DAYTube/content/overlay.js" />
+	<script src="chrome://DAYTube/content/globals.js" />
+	<menupopup id="menu_ToolsPopup">
+		<menuitem id="DAYTube-menuitem" label="&DAYTube;" accesskey="u" oncommand="HelloWorld.onMenuItemCommand(event);" />
+	</menupopup>
+  
+	<tabbrowser id="content" />
+	
+</overlay>

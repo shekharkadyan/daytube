@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://DAYTube/locale/DAYTube.dtd">
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+        title="&title.label;">
+<groupbox flex="1">
+<tree hidecolumnpicker="false" enableColumnDrag="true" flex="1">
+	<treecols>
+		<treecol id="serialnumber" flex="1" label="Sr. No."/>
+		<splitter class="tree-splitter"/>
+		<treecol id="title" flex="1" label="Title"/>
+		<splitter class="tree-splitter"/>
+  		<treecol id="length" flex="1" label="Length"/>
+		<splitter class="tree-splitter"/>
+  		<treecol id="progress" flex="1" label="Progress"/>
+  		<splitter class="tree-splitter"/>
+		<treecol id="elaspsedtime" flex="1" label="Elapsed Time"/>
+		<splitter class="tree-splitter"/>
+  		<treecol id="estimatedtimeremaining" flex="1" label="Estimated Time Remanining"/>
+  		<splitter class="tree-splitter"/>
+		<treecol id="speed" flex="1" label="Speed"/>
+		<splitter class="tree-splitter"/> 
+ 		<treecol id="status" flex="1" label="Status"/>
+ 	</treecols>
+	<treechildren>
+		<treeitem>
+			<treerow>
+				<treecell label="1"/>
+				<treecell label="sachin"/>
+				<treecell label="2:00 min."/>
+				<treecell label="50%"/>
+				<treecell label="1 min."/>
+				<treecell label="1 min."/>
+				<treecell label="10 Kbps"/>
+				<treecell label="onwork"/>
+			</treerow>
+		</treeitem>
+	</treechildren>
+</tree>
+</groupbox>
+</window>

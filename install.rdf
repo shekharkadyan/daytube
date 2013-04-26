@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+  
+    <em:id>DAYTube@mozilla.doslash.org</em:id>
+    <em:name>DAYTube - DownAllYouTube</em:name>
+    <em:version>1.0</em:version>
+    <em:description>Use DAYTube to download multiple videos present on a YouTube page. 
+    		    It becomes pretty handy when it comes to download a whole playlist of vidoes.
+    </em:description>
+    <em:creator>Shekhar Kadyan , Nitesh Vijayvargiya, Yatish Kumar Singh</em:creator>
+    <!-- optional items -->
+    <em:contributor>M.S.Ram</em:contributor>
+    <em:homepageURL>http://home.iitk.ac.in/~shekhark/cs100/project.html</em:homepageURL>
+    <!--em:optionsURL>chrome://sampleext/content/settings.xul</em:optionsURL>
+    <em:aboutURL>chrome://sampleext/content/about.xul</em:aboutURL>
+    <em:iconURL>chrome://sampleext/skin/mainicon.png</em:iconURL>
+    <em:updateURL>http://sampleextension.mozdev.org/update.rdf</em:updateURL-->
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>3.7.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+  </Description>
+
+</RDF>
